@@ -1,0 +1,44 @@
+.clearfix:after {
+    content: " "; /* Older browser do not support empty content */
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+  }
+
+.products-row{
+    position: relative;
+    padding:0px;
+    margin:0px;
+    list-style:none;
+    margin-top:10px;
+
+}
+.products-row .item{
+   position: relative;
+   float: left;
+   margin-right:10px;
+   width:200px;
+   box-shadow: 0 0 3px 3px rgba(0, 0, 0,.1);
+   border-radius: 10px;
+}
+
+.products-row .item .photo{
+   height: 130px;
+   background-color: lightyellow;
+   overflow: hidden; 
+
+}
+
+.products-row .item .photo img{   
+    
+    border-radius: 10px 10px 0 0;
+    object-fit: fill;
+    width:100%;
+    height: 100%;
+ 
+ }
+.products-row .item .desc{
+  padding:10px;
+  box-sizing: border-box;
+}

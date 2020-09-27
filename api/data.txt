@@ -1,0 +1,13 @@
+$total_record=304
+$each_page= 10
+
+$pages=ceil(400/10)
+
+$top=
+
+select id,name from user limit 0,10;
+select id,name from user limit 11,10;
+select id,name from user limit 21,10;
+select id,name from user limit 31,10;
+
+

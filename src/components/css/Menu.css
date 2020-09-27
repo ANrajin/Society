@@ -1,0 +1,22 @@
+.menu{  
+    width:200px;
+    padding:0px;
+    margin:0px;
+    list-style: none;
+    margin-left:10px;
+    box-shadow:0px 0px 1px 1px rgba(0,0,0,.1);
+  }
+  .menu li{
+    border-bottom:1px dotted lightgray;
+  }
+  .menu li a{
+    display: block;
+    text-decoration: none;
+    padding:5px;
+    box-shadow: border-box;
+  }
+  .menu li a:hover{
+    background-color:black;
+    color:#fff;
+  }
+  

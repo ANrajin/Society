@@ -1,0 +1,9 @@
+<IfModule mod_rewrite>
+    Options +FollowSymlinks
+   
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^/api/([^\.]+).(xml|json|atom) api.php?url=$1&type=$2
+
+</IfModule> 
